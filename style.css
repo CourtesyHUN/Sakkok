@@ -21,3 +21,25 @@ table{
   {
     text-align:center;
   }
+#babuk:hover
+{
+    transform: scale(1.5);
+    transition: 1s cubic-bezier(.03,-0.45,0,1.56);
+}
+
+#babuk
+{
+    display: block;
+    margin: 0 auto;
+    transition: 1s cubic-bezier(.03,-0.45,0,1.56);
+    padding: 50px;
+}
+
+#sakkozok
+{
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 150px;
+    height: auto;
+}
